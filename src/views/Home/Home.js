@@ -12,6 +12,7 @@ export default function Home() {
   const [subtitle, setSubtitle] = useState('')
   const [font, setFont] = useState('')
   const [align, setAlign] = useState()
+  const [text, setText] = useState('')
 
   return (
     <main>
@@ -26,6 +27,8 @@ export default function Home() {
         setFont={setFont}
         align={align}
         setAlign={setAlign}
+        text={text}
+        setText={setText}
       />
     </main>
   )
